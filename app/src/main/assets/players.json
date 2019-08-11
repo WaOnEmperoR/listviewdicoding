@@ -1,0 +1,26 @@
+[
+  {
+    "name" : "Allisson Becker",
+    "position" : "Goalkeeper",
+    "nationality" : "Brazil",
+    "number" : "23",
+    "photo" : "allisson",
+    "comment" : "good player"
+  },
+  {
+    "name" : "Virgil van Dijk",
+    "position" : "Defender",
+    "nationality" : "Netherlands",
+    "number" : "4",
+    "photo" : "vvd",
+    "comment" : "good player"
+  },
+  {
+    "name" : "Dejan Lovren",
+    "position" : "Defender",
+    "nationality" : "Croatia",
+    "number" : "5",
+    "photo" : "lovren",
+    "comment" : "decent player"
+  }
+]

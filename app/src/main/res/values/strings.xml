@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListViewDicoding</string>
+    <string name="player_name">Name</string>
+    <string name="player_nationality">Nationality</string>
+    <string name="player_position">Position</string>
+    <string name="player_number">Number</string>
+    <string name="player_comment">Comment</string>
+    <string name="player_photo">Photo</string>
+</resources>
