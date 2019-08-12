@@ -6,4 +6,7 @@
     <string name="player_number">Number</string>
     <string name="player_comment">Comment</string>
     <string name="player_photo">Photo</string>
+
+    <string name="author_name">Rachmawan Atmaji Perdana</string>
+    <string name="author_email">themusketeer17@gmail.com</string>
 </resources>

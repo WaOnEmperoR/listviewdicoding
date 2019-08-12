@@ -8,6 +8,8 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -84,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         listHeroAdapter.setOnItemClickCallback(new ListPlayerAdapter.OnItemClickCallback() {
             @Override
             public void onItemClicked(Player data) {
-                Toast.makeText(getApplicationContext(), "Kamu memilih " + data.getPlayer_name(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "You are selecting " + data.getPlayer_name(), Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(MainActivity.this, PlayerDetailActivity.class);
                 intent.putExtra("NAME", data.getPlayer_name());
@@ -98,4 +100,27 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        setMode(item.getItemId());
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void setMode(int selectedMode) {
+        switch (selectedMode) {
+            case R.id.action_about:
+                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(intent);
+                break;
+
+        }
+    }
+
 }
