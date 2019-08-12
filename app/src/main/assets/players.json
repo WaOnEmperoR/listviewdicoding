@@ -3,9 +3,9 @@
     "name" : "Allisson Becker",
     "position" : "Goalkeeper",
     "nationality" : "Brazil",
-    "number" : "23",
+    "number" : "13",
     "photo" : "allisson",
-    "comment" : "good player"
+    "comment" : "very good player"
   },
   {
     "name" : "Virgil van Dijk",
@@ -13,7 +13,7 @@
     "nationality" : "Netherlands",
     "number" : "4",
     "photo" : "vvd",
-    "comment" : "good player"
+    "comment" : "very good player"
   },
   {
     "name" : "Dejan Lovren",
@@ -21,6 +21,70 @@
     "nationality" : "Croatia",
     "number" : "5",
     "photo" : "lovren",
+    "comment" : "decent player"
+  },
+  {
+    "name" : "Jordan Henderson",
+    "position" : "Midfielder",
+    "nationality" : "England",
+    "number" : "14",
+    "photo" : "henderson",
+    "comment" : "captain"
+  },
+  {
+    "name" : "Alex Oxlade-Chamberlain",
+    "position" : "Midfielder",
+    "nationality" : "England",
+    "number" : "15",
+    "photo" : "chamberlain",
+    "comment" : "good player"
+  },
+  {
+    "name" : "Roberto Firmino",
+    "position" : "Forward",
+    "nationality" : "Brazil",
+    "number" : "9",
+    "photo" : "firmino",
+    "comment" : "good player"
+  },
+  {
+    "name" : "Mohammed Salah",
+    "position" : "Forward",
+    "nationality" : "Egypt",
+    "number" : "11",
+    "photo" : "salah",
+    "comment" : "irreplaceable player"
+  },
+  {
+    "name" : "Sadio Mane",
+    "position" : "Forward",
+    "nationality" : "Senegal",
+    "number" : "10",
+    "photo" : "mane",
+    "comment" : "outstanding player"
+  },
+  {
+    "name" : "Andrew Robertson",
+    "position" : "Defender",
+    "nationality" : "Scotland",
+    "number" : "26",
+    "photo" : "robertson",
+    "comment" : "decent player"
+  },
+  {
+    "name" : "James Milner",
+    "position" : "Midfielder",
+    "nationality" : "England",
+    "number" : "7",
+    "photo" : "milner",
+    "comment" : "key player"
+  },
+  {
+    "name" : "Joe Gomez",
+    "position" : "Defender",
+    "nationality" : "England",
+    "number" : "12",
+    "photo" : "joegomez",
     "comment" : "decent player"
   }
 ]
